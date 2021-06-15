@@ -1,0 +1,21 @@
+1.
+- trans_begin()
+Untuk memulai suatu transaction pada database
+
+- trans_complete()
+Untuk memberi tahu batas transaction.
+
+- trans_status()
+Untuk menunjukkan hasil dari transaction yang dilakukan.
+
+- trans_rollback()
+Untuk kembali ke awal di mana transaction dimulai menggunakan trans_begin().
+
+2.
+Karena kita ingin setiap kali menggunakan method pada controller tersebut, model tersebut dapat digunakan dimana saja pada method yang ada pada controller tersebut.
+
+3.
+Memudahkan validasi form karena rules validasi cukup banyak & lengkap sehingga kita tidak perlu melakukan validasi manual yang dimana cukup merepotkan. Selain itu kita juga dapat menampilkan error message dengan mudah.
+
+4.
+Memudahkan membuat query & sangat membantu ketika ada query yang kompleks. Selain itu query builder juga lebih aman karena aspek-aspek keamanan sudah diatasi secara otomatis oleh CodeIgniter.

@@ -1,0 +1,39 @@
+=== NOMOR 1 ===
+- Single Quotes:
+Single quote akan menampilkan string apa adanya, termasuk ketika kita mencoba untuk memanggil variabel. Misalnya:
+
+$str = "UMN";
+echo '$str';
+
+Maka yang tampil adalah "$str", bukan "UMN".
+Jika ingin menggunaan single quote di dalam string yang menggunakan single quotes, maka harus di escape dengan menggunakan tanda backslash \.
+
+- Double Quotes:
+Sedangkan jika double quotes, akan menampilan text "UMN".
+Jika ingin menggunaan double quote di dalam string yang menggunakan double quotes, maka harus di escape dengan menggunakan tanda backslash \.
+
+- Output:
+I'm "not" a girl
+I'm a womanThat is Mario\'s cat
+Her name is Maria
+
+
+=== NOMOR 2 ===
+[a]
+$i%3 == 0
+
+[b]
+$i%5 == 0
+
+[c]
+$desc
+
+[d]
+'ping'
+
+[e]
+'pong'
+
+[f]
+'dum'
+

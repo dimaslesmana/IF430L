@@ -1,0 +1,30 @@
+1. Sebutkan dan Jelaskan kategori dari PHP Framework beserta contoh nya!
+- Full-stack framework
+Full-stack framework seperti suatu paket lengkap dalam suatu pengembangan website, mulai dari UI hingga penyimpanan data. Menggunakan jenis framework ini akan memudahkan programmer dalam membuat sebuah website karena mempunyai banyak fitur yang lengkap.
+
+Contoh:
+Laravel, Symfony, CakePHP
+
+- Microframework 
+Microframework memiliki fitur yang lebih sedikit dari pada Full-stack framework, tetapi framework jenis ini memiliki fleksibilitas yang tinggi, ringan, dan cepat.
+
+Contoh:
+Lumen, Slim, Silex
+
+
+2. Jelaskan minimal 5 framework kategori web CMS!
+- WordPress
+CMS yang digunakan untuk membuat suatu website atau blog dengan mudah, tanpa memerlukan pengalaman coding sama sekali.
+
+- Joomla
+CMS yang digunakan untuk membuat website dengan model MVC.
+
+- Drupal
+CMS yang digunakan untuk membuat website dengan keamanan yang tinggi, tetapi memerlukan pengalaman web development terlebih dahulu agar tidak kesulitan dalam menggunakannya.
+
+- TYPO3
+CMS yang digunakan untuk membuat website pada skala enterprise karena skalabilitas adalah poin utama pada CMS ini.
+
+- MODX
+CMS yang digunakan untuk membuat website, tetapi untuk menggunakan CMS ini perlu mengetahui dasar-dasar tentang PHP atau HTML.
+

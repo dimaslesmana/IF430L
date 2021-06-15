@@ -1,0 +1,28 @@
+1. Sebutkan dan jelaskan minimal 4 keuntungan dari Object Oriented Programming!
+- Modular
+Memudahkan pemecahan masalah karena fungsi-fungsi ditulis secara terpisah sesuai dengan kegunaannya saja.
+- Reusable
+Suatu class dapat digunakan berulang kali.
+- Lebih mudah untuk dilakukan maintenance.
+- Dapat melakukan testing dengan lebih mudah.
+
+
+2. Jelaskan secara singkat dan beri contoh bila perlu (dalam Bahasa PHP) apa yang dimaksud dengan:
+a. Class
+Merupakan struktur yang berkaitan dengan atribut / property dan fungsi yang dapat dimiliki suatu object.
+
+b. Object
+Merupakan hasil yang sudah dibentuk dari suatu class.
+
+c. Inheritance
+Merupakan pewarisan atau penurunan dari parent class yang nantinya disebut sebagai child class.
+
+d. Constructor
+Merupakan suatu fungsi khusus yang akan dijalankan ketika object pertama kali diinstansiasikan.
+
+e. Destructor
+Merupakan suatu fungsi khusus yang akan dijalankan ketika suatu object dihapus.
+
+
+3. Jelaskan secara singkat apa yang Anda ketahui tentang Model View Controller di PHP.
+Merupakan konsep desain aplikasi yang memisahkan antara data (Model), tampilan (View), dan penghubung yang nantinya akan mengatur model dan view tadi (Controller). Controller nantinya akan menentukan apa yang harus dilakukan oleh model, serta view mana yang harus ditampilkan.

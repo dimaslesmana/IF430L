@@ -1,0 +1,30 @@
+1. Sebutkan dan jelaskan 5 macam URL helper yang terdapat di Code Igniter!
+- site_url()
+mengembalikan nilai URL disertai dengan index.php atau apapun yang sudah di-config di $config['index_page'].
+
+- base_url()
+mengembalikan nilai base_url yang sudah di-config di $config['base_url'].
+
+- current_url()
+mengembalikan nilai URL pada halaman yang sedang dilihat saat itu.
+
+- mailto()
+untuk membuat link email HTML.
+
+- redirect()
+untuk melakukan redirect pada halaman atau url yang sudah ditentukan di parameter.
+
+2. Bagaimana cara menghubungkan Code Igniter dengan database di file database.php? Tuliskan!
+- Buka file database.php yang terletak pada folder application/config.
+- Ubah nilai dari key 'hostname', 'username', 'password', dan 'database' yang nilainya disesuaikan dengan konfigurasi server kita.
+
+3. Apa fungsi dari konfigurasi di file autoload.php?
+Digunakan untuk menjalankan suatu system secara otomatis pada saat website berjalan.
+Hal-hal yang dapat dimuat di auto-loader:
+1. Packages
+2. Libraries
+3. Drivers
+4. Helper files
+5. Custom config files
+6. Language files
+7. Models

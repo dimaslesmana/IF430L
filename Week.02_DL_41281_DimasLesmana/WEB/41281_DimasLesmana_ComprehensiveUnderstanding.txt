@@ -1,0 +1,8 @@
+1.
+Jumlah database driver yang disupport oleh PDO lebih banyak daripada MySQLi yang dimana hanya support untuk MySQL saja. Untuk API, MySQLi menggunakan OOP + Procedural sedangkan PDO hanya menggunakan OOP. PDO mendukung named parameters, dan prepared statements sedangkan MySQLi tidak.
+
+2.
+Pada kegiatan 2.1 ($row['ProductID']), kolom diakses dengan menggunakan nama kolomnya. Sedangkan pada kegiatan 2.2 ($row[0]), kolom diakses dengan menggunakan index kolom pada suatu table (products).
+
+3.
+Akan lebih baik jika menggunakan PDO, karena PDO memiliki support database driver yang lebih banyak. Misal, jika ingin pindah dari MySQL ke Oracle maka tidak perlu susah-susah untuk merombak semua codingan yang ada. PDO juga memiliki error handling yang lebih bagus. PDO juga bisa menggunakan prepared statement yang dimana akan lebih baik dalam hal keamanan dari serangan, misalnya SQL Injection.

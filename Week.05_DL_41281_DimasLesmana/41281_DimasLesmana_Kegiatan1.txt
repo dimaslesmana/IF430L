@@ -1,0 +1,24 @@
+1. Sebutkan dan Jelaskan 2 cara user input exploitation pada web
+- SQL injection
+Merupakan teknik untuk memanipulasi query SQL pada suatu web dengan cara memasukkan syntax SQL pada user input.
+
+- XSS
+Suatu cara untuk memasukkan script berbahaya (biasanya javascript) pada input yang terdapat pada suatu website.
+
+
+2. Sebutkan cara yang dapat dilakukan untuk menghindari kedua user input exploitation tersebut
+- SQL injection
+Melakukan sanitasi query seperti melakukan escape karakter yang	dilarang, atau menggunakan prepared statements.
+
+- XSS
+Melakukan encoding pada input user dengan menggunakan fungsi yang bernama "htmlspecialchars()".
+
+
+3. Apa yang dimaksud dengan md5 ?
+MD5 adalah suatu algoritma / fungsi yang digunakan untuk melakukan hashing / enkripsi pada suatu data atau input.
+
+
+4. Sebutkan 3 cara hashing selain dengan menggunakan metode md5!
+- Metode SHA
+- Metode RC4
+- Metode Base64

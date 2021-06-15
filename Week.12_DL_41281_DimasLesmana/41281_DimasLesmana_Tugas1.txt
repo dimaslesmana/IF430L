@@ -1,0 +1,19 @@
+1. Sebutkan dan jelaskan fitur-fitur dari grocery crud!
+- Relational Database Model
+Mendukung implementasi relasi pada database model. Misalnya one-to-many, dan many-to-many.
+
+- Themes
+Dapat mengganti tema yang digunakan dengan beberapa tema yang tersedia dengan mudah.
+
+- Browser Compatibility
+Mendukung hampir semua browser yang ada pada umumnya. Misalnya Chrome, Safari, Firefox, Opera, dan Internet Explorer.
+
+2. Jelaskan kegunaan dari callback pada grocery crud dan sebutkan tipe-tipenya!
+Callback berfungsi untuk melakukan escaping terhadap suatu proses sebelum meneruskannya ke proses akhir.
+
+- Callback Before (delete, insert, update, upload)
+- Callback After (delete, insert, update, upload)
+- Callback Column
+- Callback Delete
+- Callback add field
+- Callback edit field

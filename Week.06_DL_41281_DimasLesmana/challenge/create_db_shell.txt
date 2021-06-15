@@ -1,0 +1,27 @@
+CREATE DATABASE IF NOT EXISTS `41281_pemweb_modul05`;
+USE `41281_pemweb_modul05`;
+
+CREATE TABLE `students`(
+	`id` INT(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`student_id` VARCHAR(12) NOT NULL,
+	`first_name` VARCHAR(20) NOT NULL,
+	`last_name` VARCHAR(20) NOT NULL,
+	`student_desc` VARCHAR(255)
+)engine=innoDB;
+
+INSERT INTO `students` (`student_id`, `first_name`, `last_name`, `student_desc`)
+VALUES
+('00000041281', 'Dimas', 'Lesmana', 'Ini Text Deskripsi'),
+('141100110057', 'Budi', 'Pambudi', ''),
+('141101100581', 'Ryan', 'Pramana', 'Mahasiswa TI');
+
+CREATE TABLE `user`(
+	`email` VARCHAR(255) NOT NULL PRIMARY KEY,
+	`pass` VARCHAR(255) NOT NULL,
+	`salt` VARCHAR(50) NOT NULL
+)engine=innoDB;
+
+INSERT INTO `user` (`email`, `pass`, `salt`)
+VALUES
+('admin@umn.ac.id', 'f6fdffe48c908deb0f4c3bd36c032e72', 'admin'),
+('agung@umn.ac.id', 'a24a2a3227fab1ef5c81fc6ac31f20ff', 'coba');

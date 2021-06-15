@@ -1,0 +1,29 @@
+1. Jelaskan apa yang dimaksud php predefined variable! Berikan juga 4 contoh nya beserta fungsinya.
+PHP Predefined Variable adalah variable yang telah didefinisikan atau sudah disediakan terlebih dahulu oleh PHP. Contoh:
+- $_POST
+Digunakan untuk mengambil data yang dikirim oleh user dari form HTML yang menggunakan method "post".
+
+- $_GET
+Digunakan untuk mengambil data dari form setelah form HTML tersebut di-submit dengan menggunakan method "get" atau dari URL query.
+
+- $_REQUEST
+Digunakan untuk mengambil data setelah form HTML di-submit.
+
+- $_SERVER
+Berisi tentang informasi headers, paths, dan script locations.
+
+
+2. Jelaskan perbedaan get dan post method serta sebutkan juga kelebihan masing-masing method!
+- GET
+Digunakan untuk melakukan request data dari sumber / resource yang sudah ditentukan.
+Kelebihan:
+- Simpel dan data lebih mudah di-edit karena menggunakan URL query.
+- URL query bisa di-share ke siapa saja.
+- Lebih mudah digunakan untuk penyimpanan data sementara.
+
+- POST
+Digunakan untuk mengirim data ke server untuk membuat atau melakukan update pada resource.
+Kelebihan:
+- Lebih aman karena data yang dikirim tidak terlihat di URL dan tidak tersimpan di history browser.
+- Dapat digunakan untuk mengirimkan data dalam jumlah besar.
+- Dapat digunakan untuk mengirimkan data berupa gambar, file, dan lain-lain.
